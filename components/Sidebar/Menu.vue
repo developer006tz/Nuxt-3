@@ -37,7 +37,7 @@
         </header>
         <div class="px-4 grow">
             <div class="grid gap-2">
-                <div v-for='(item,index) in items' :key="index" class="flex items-center gap-2 px-2 py-1 rounded bg-neutral-200 transition cursor-pointer hover:bg-neutral-100">
+                <div v-for='(item,index) in items' :key="index" class="flex items-center gap-2 px-2 py-1 rounded transition cursor-pointer hover:bg-neutral-100">
                     <Icon size="20" :name="item.icon" color="black" />
                     <span>{{ item.title }}</span>
                 </div>
